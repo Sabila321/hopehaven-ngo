@@ -1,0 +1,80 @@
+export const programsData = [
+  {
+    id: 'clean-water',
+    title: 'Clean Drinking Water & Solar Wells',
+    category: 'Clean Water',
+    summary: 'Installing community solar-powered water filtration plants and deep tube wells in drought-prone rural villages.',
+    description: 'Access to safe drinking water is a fundamental human right. In arid and flood-affected regions, families walk miles each day for contaminated water. Our initiative installs durable solar-powered filtration units and hand-pumps serving thousands of households.',
+    goal: 50000,
+    raised: 38500,
+    beneficiaries: '45,000+ Villagers',
+    image: 'https://images.unsplash.com/photo-1541544741938-0af808871cc0?auto=format&fit=crop&w=800&q=80',
+    featured: true,
+    urgency: 'High'
+  },
+  {
+    id: 'child-education',
+    title: 'Child Education & School Kits Drive',
+    category: 'Education',
+    summary: 'Sponsoring underprivileged children with school supplies, uniforms, digital literacy labs, and trained teachers.',
+    description: 'Education unlocks generational potential. We support community-based schools in slum clusters and remote valleys by equipping students with textbooks, uniforms, bags, daily nutrition, and interactive computer centers.',
+    goal: 35000,
+    raised: 29400,
+    beneficiaries: '3,200+ Students',
+    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=800&q=80',
+    featured: true,
+    urgency: 'Ongoing'
+  },
+  {
+    id: 'mobile-healthcare',
+    title: 'Mobile Healthcare Clinics & Medical Aid',
+    category: 'Healthcare',
+    summary: 'Deploying equipped medical vans with volunteer doctors to deliver free diagnosis, eye checkups, and life-saving medicines.',
+    description: 'Rural and remote settlements often lack basic clinics within hours of travel. Our mobile healthcare units bring doctors, diagnostic equipment, free ultrasound/diabetes screening, and life-saving medications directly to their doorstep.',
+    goal: 60000,
+    raised: 47800,
+    beneficiaries: '28,000+ Patients',
+    image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80',
+    featured: true,
+    urgency: 'High'
+  },
+  {
+    id: 'emergency-relief',
+    title: 'Emergency Flood & Disaster Relief',
+    category: 'Disaster Relief',
+    summary: 'Rapid response distribution of cooked meals, dry food ration packs, emergency shelter tents, and hygiene kits.',
+    description: 'When natural disasters strike, quick deployment saves lives. Our disaster rescue teams deliver pre-packaged emergency food hampers, water purification tablets, warm blankets, and medical first-aid within 24 hours of crisis.',
+    goal: 80000,
+    raised: 71200,
+    beneficiaries: '52,000+ People',
+    image: 'https://images.unsplash.com/photo-1532629345422-7515f3d16bb2?auto=format&fit=crop&w=800&q=80',
+    featured: true,
+    urgency: 'Critical'
+  },
+  {
+    id: 'women-empowerment',
+    title: 'Women Vocational Training & Micro-Grants',
+    category: 'Livelihood',
+    summary: 'Empowering widows and female breadwinners with certified sewing classes, digital freelancing skills, and startup toolkits.',
+    description: 'Financial independence breaks poverty cycles. We provide women with industrial sewing machines, artisan craft training, financial literacy workshops, and small interest-free micro-grants to establish home-based sustainable businesses.',
+    goal: 40000,
+    raised: 31800,
+    beneficiaries: '1,800+ Women',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
+    featured: false,
+    urgency: 'Ongoing'
+  },
+  {
+    id: 'orphan-sponsorship',
+    title: 'Orphan Care & Warm Nutrition Support',
+    category: 'Child Care',
+    summary: 'Comprehensive monthly care covering nutritious hot meals, safe lodging, healthcare, and compassionate mentorship.',
+    description: 'Ensuring that every parentless child receives the love, educational backing, mental healthcare, and wholesome nourishment required to flourish into a confident and independent adult.',
+    goal: 45000,
+    raised: 41000,
+    beneficiaries: '850+ Orphans',
+    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80',
+    featured: false,
+    urgency: 'Ongoing'
+  }
+];
